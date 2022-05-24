@@ -18,8 +18,15 @@ classDiagram
         -int r
         +Circle()
         +Circle(int, int, int)
+        +int getRadio()
       }
-      class Rectangle {        
+      class Rectangle {  
+        -int alto 
+        -int ancho
+        +Rectangle() 
+        +Rectangle(int,int,int,int)
+        +int getAlto() 
+        +int getAncho() 
       }
       class Polygon {
       }
